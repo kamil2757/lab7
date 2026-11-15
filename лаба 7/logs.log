@@ -1,0 +1,12 @@
+2023-10-24 08:15:01 [INFO] Server started on port 8080
+2023-10-24 08:15:05 [INFO] Database connection established successfully
+2023-10-24 08:16:12 [DEBUG] Received request to /api/users
+2023-10-24 08:16:13 [ERROR] Database query timeout: SELECT * FROM users WHERE id=123
+2023-10-24 08:17:00 [INFO] User 'admin' logged in from 192.168.1.10
+2023-10-24 08:18:45 [WARNING] High memory usage detected: 85%
+2023-10-24 08:19:30 [ERROR] FileNotFoundException: config.yaml not found in /etc/app/
+2023-10-24 08:20:15 [INFO] Backup process completed in 4.2s
+2023-10-24 08:22:10 [ERROR] Unauthorized access attempt for user 'root' from 10.0.0.55
+2023-10-24 08:25:00 [DEBUG] Cache cleared
+2023-10-24 08:26:11 [INFO] Scheduled task 'cleanup' finished
+2023-10-24 08:27:45 [ERROR] ConnectionRefusedError: Failed to connect to Redis on port 6379
